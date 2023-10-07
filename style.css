@@ -1,0 +1,144 @@
+.bd1{
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    /* background-color: red; */
+}
+.jaga-container{
+    position: fixed;
+    top: 17%;
+    width: 100%;
+    text-align: center;
+}
+.jaga{
+    width: 350px;
+}
+.main-heading{
+    width: 170px;
+}
+.menu{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    padding: 8px 30px 10px; 
+    border-radius: 5px;
+}
+.menu-link{
+    width: 100vw;
+    text-decoration: none;
+    position: fixed;
+    bottom: 70px;
+    z-index: 33;
+    display: flex;
+    justify-content: center;
+}
+
+.accordion{
+    display: none;
+    /* transition: all 0.5s; */
+}
+@keyframes slide{
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+
+    }
+}
+@keyframes slide2{
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+
+    }
+}
+.food-type{
+    width: 82px;
+    height: 82px;
+    border: 2px solid #ffc000;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.accordion-button{
+    width: 100% !important;
+    background-color: #ffffff !important;
+    color: black !important;
+    font-weight: bold;
+    border-radius: 10px !important;
+}
+/* .accordion-button:hover{
+    background-color: #6283b8 !important;
+} */
+.accordion-button:focus {
+    box-shadow: none !important;
+    border:none !important;
+}
+.accordion-body table tr td:nth-child(1){
+    width: 80px;
+}
+.accordion-item{
+    background-color: rgb(255, 255, 255) !important;
+    border: 3px solid #ffc000 !important;
+    margin: 10px 15px;
+    border-radius: 10px !important;
+}
+.accordion-item:nth-child(2n-1){
+    animation-name: slide;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+}
+.accordion-item:nth-child(2n){
+    animation-name: slide2;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+}
+.accordion-body{
+    padding: 5px 10px 5px 5px !important;
+}
+.accordion-body table{
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.accordion-body table h5{
+    font-size: 18px;
+    color: #ba8c00;
+    font-weight: 500;
+}
+.accordion-body table p{
+    font-size: 10px;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.accordion-body table tr{
+    height: 90px;
+    border-spacing: 0px !important;
+}
+.accordion-body table tr td:nth-child(3){
+    text-align: center;
+    padding: 0 10px;
+    width: 45px;
+    color: white;
+    background-image: url(./images/price-tag.png);
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.accordion-body img{
+    width: 70px;
+    margin: 0px;
+}
+.btn-text{
+    cursor: pointer;
+    font-size: 25px;
+}
