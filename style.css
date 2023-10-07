@@ -142,3 +142,9 @@
     cursor: pointer;
     font-size: 25px;
 }
+.version{
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    font-size: 12px;
+}
