@@ -142,9 +142,72 @@
     cursor: pointer;
     font-size: 25px;
 }
-.version{
+.version a{
     position: fixed;
     top: 5px;
     right: 10px;
     font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+/* About Panel */
+
+.version-history{
+    margin: 30px;
+}
+.v-id{
+    margin: 0px 0 91px;
+}
+.v-id p{
+    font-size: 13px;
+    color: grey;
+}
+.version-history h6{
+    width: 100px;
+    color: #ffc000;
+}
+.v-bar{
+    width: 15px;
+    height: 170px;
+    background-color: royalblue;
+    border-radius: 8px;
+    margin-right: 20px;
+    position: relative;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: royalblue;
+    position: absolute;
+    left: -6.5px;
+}
+.point1{
+    bottom: -2px;
+}
+.point2{
+    bottom: 136px;
+}
+.dev-img{
+    width: 50px;
+    margin: 10px;
+}
+.dev-name{
+    font-size: 20px;
+    line-height: 25px;
+    color: green;
+}
+.about{
+    margin: 0 30px;
+}
+.about i{
+    margin-right: 20px;
+}
+.about img{
+    width: 120px;
+    margin: 3px 7px 0 0;
+}
+.about a img{
+    width: 40px;
 }
