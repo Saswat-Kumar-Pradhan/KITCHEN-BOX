@@ -151,7 +151,7 @@
     color: gray;
 }
 
-/* About Panel */
+/* ================== About Panel ================ */
 
 .version-history{
     margin: 30px;
@@ -169,7 +169,7 @@
 }
 .v-bar{
     width: 15px;
-    height: 170px;
+    height: 310px;
     background-color: royalblue;
     border-radius: 8px;
     margin-right: 20px;
@@ -183,12 +183,12 @@
     position: absolute;
     left: -6.5px;
 }
-.point1{
-    bottom: -2px;
-}
-.point2{
-    bottom: 136px;
-}
+.point1{bottom: -2px;}
+.point2{bottom: 136px;}
+.point3{bottom: 274px;}
+/* .point4{bottom: 412px;}
+.point5{bottom: 550px;} */
+
 .dev-img{
     width: 50px;
     margin: 10px;
