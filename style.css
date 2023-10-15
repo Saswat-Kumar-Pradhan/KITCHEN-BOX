@@ -169,7 +169,7 @@
 }
 .v-bar{
     width: 15px;
-    height: 310px;
+    height: 448px;
     background-color: royalblue;
     border-radius: 8px;
     margin-right: 20px;
@@ -186,8 +186,8 @@
 .point1{bottom: -2px;}
 .point2{bottom: 136px;}
 .point3{bottom: 274px;}
-/* .point4{bottom: 412px;}
-.point5{bottom: 550px;} */
+.point4{bottom: 412px;}
+/* .point5{bottom: 550px;} */
 
 .dev-img{
     width: 50px;
